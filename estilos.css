@@ -1,0 +1,204 @@
+header {
+    background: url("img/Vector 1 (4).png");
+    background-size: cover;
+    height: 1000px;
+}
+
+.menu {
+    background: #110F2B;
+    padding: 20px;
+    color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: #377ca3;
+}
+
+.menu ul {
+    margin: 0px;
+}
+
+.contenedor-titulo {
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+.titulo {
+    /* font-size: 80px; */
+    color: #fff;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.titulo h1 {
+    font-size: 64px;
+}
+
+.titulo-servicio {
+    margin: 30px auto;
+    width: auto;
+    display: inline-block;
+}
+
+.titulo-container {
+    margin: auto;
+    text-align: center;
+}
+
+.titulo-servicio h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-servicio hr {
+    color: #DD9934;
+    border: 2px solid #DD9934;
+}
+
+img {
+    width: 100%;
+}
+
+.servicio h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 40px;
+    text-align: center;
+}
+
+.servicio.destacado h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px 40px;
+    text-align: left;
+}
+
+.servicio img {
+    height: 450px;
+}
+
+.servicio p {
+    margin: 40px;
+}
+
+.servicio a {
+    display: block;
+    margin: 0px 40px;
+    background: #DD9934;
+    border: #DD9934;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.servicio {
+    margin-bottom: 30px;
+}
+
+.persona img {
+    width: 70%;
+    text-align: center;
+}
+
+.persona .imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje {
+    height: 200px;
+}
+
+form .nombre, .correo {
+    border-radius: 25px;
+}
+
+.enviar{
+    border-radius: 25px;
+    margin: 20px 0px;
+    padding: 15px;
+    background: #DD9934;
+    border: #DD9934;
+}
+
+iframe {
+    width: 100%;
+}
+
+.persona {
+    text-align: center;
+}
+.persona h2 {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.persona p {
+    margin: 20px;
+}
+
+footer {
+    background: #D9D9D9;
+    padding: 20px;
+}
+
+footer a svg {
+    width: 20px;
+    height: 20px;
+}
+
+footer a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    float: left;
+}
+
+.iconos {
+    display: inline-block;
+    width: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 440px) {
+    header .titulo h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    header .menu ul {
+        text-align: center;
+    }
+
+    header {
+        height: 950px;
+    }
+
+    .titulo-servicio {
+        margin: 20px auto;
+    }
+}
